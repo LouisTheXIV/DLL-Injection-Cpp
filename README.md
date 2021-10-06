@@ -1,5 +1,5 @@
 # DLL-Injection-Cpp
-Inject a DLL into any program using this C++ program
+Inject a DLL into any process using this C++ program
 
 # Installation
 Go into a folder and open up Command Prompt.
@@ -15,7 +15,9 @@ In the main function change the const char* window_title variable to be the Wind
 
 #### Second step:
 Build the Injector.cpp file in Debug mode, it is ok if you get an error saying DLL not found.
-Next step, drop the DLL which you want to Inject into the Injector/Injector/x64/Debug folder
+Next step, drop the DLL which you want to Inject into the Injector/Injector/x64/Debug folder.
+Make sure to rename the DLL you have dropped to InjectDLL.dll.
+There is an example DLL in DLL\InjectDLL\x64\Debug\InjectDLL.dll.
 You should have an exe file in there called Injector.exe, run it. 
 
 #### Third step:
